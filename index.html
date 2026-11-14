@@ -1,0 +1,69 @@
+
+<style>
+  .korto-wrap {
+    --blue: #0b3fa8; --blue-dark: #082c78; --yellow: #ffd23f; --white: #ffffff;
+    background: linear-gradient(180deg, var(--blue), var(--blue-dark));
+    color: var(--white);
+    font: 16px/1.7 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding: 48px 20px 32px;
+  }
+  .korto-inner { max-width: 760px; margin: 0 auto; }
+  .korto-wrap h2 { color: var(--yellow); font-size: 1.6rem; margin: 0 0 6px; }
+  .korto-wrap .role { color: var(--yellow); opacity: .85; margin: 0 0 20px; font-weight: 600; }
+  .korto-wrap p { margin: 0 0 14px; }
+  .korto-wrap blockquote {
+    margin: 22px 0; padding: 4px 0 4px 16px;
+    border-left: 4px solid var(--yellow); color: var(--yellow); font-style: italic;
+  }
+  .korto-wrap .sign { font-weight: 700; margin-top: 20px; }
+  .korto-divider { border: 0; height: 1px; background: rgba(255,255,255,.25); margin: 36px 0; }
+
+  .sites { display: grid; gap: 12px; margin-top: 16px; }
+  a.site {
+    display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    padding: 16px 18px; border-radius: 14px; text-decoration: none;
+    background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.25);
+    color: var(--white); transition: transform .15s, background .15s;
+  }
+  a.site:hover, a.site:active { background: rgba(255,255,255,.2); transform: translateY(-2px); }
+  a.site strong { display: block; color: var(--yellow); font-size: 1.05rem; }
+  a.site span { font-size: .9rem; opacity: .9; }
+  a.site .go { color: var(--yellow); font-size: 1.4rem; }
+  .korto-foot { text-align: center; margin-top: 32px; font-size: .85rem; opacity: .8; }
+</style>
+
+<section class="korto-wrap">
+  <div class="korto-inner">
+
+    <h2>Meet the founder</h2>
+    <p class="role">Ayush Jha · Founder, Korto</p>
+
+    <p>I started my journey very young, at just 15, with big dreams and very little
+       experience. I had no big budget or team, only curiosity and the belief that online
+       shopping could be simpler and more honest.</p>
+
+    <p>When my first order came in, I was actually at a loss of Rs. 1000. It would have been
+       easy to quit. Instead, I kept learning, kept improving, and the orders started coming
+       in more and more. Step by step, that grew into <strong>Korto</strong>.</p>
+
+    <blockquote>"Every order is a person trusting us. My job is to earn that trust again and again."</blockquote>
+
+    <p class="sign">- Ayush Jha<br>Founder, Korto</p>
+
+    <hr class="korto-divider">
+
+    <h2>Our websites</h2>
+    <p>Everything below is owned and operated by Korto. Tap to visit.</p>
+
+    <div class="sites">
+      <a class="site" href="https://streezier.github.io/Streezier/" target="_blank" rel="noopener">
+        <div><strong>Streezier</strong><span>Smart accessories for home, kitchen &amp; car</span></div>
+        <div class="go">&rarr;</div>
+      </a>
+
+
+    </div>
+
+    <p class="korto-foot">&copy; Korto &middot; Founded by Ayush Jha</p>
+  </div>
+</section>
